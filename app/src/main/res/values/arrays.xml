@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="lunion_menageres_secteur_3">
+        <item>02-06-2016</item>
+        <item>09-06-2016</item>
+        <item>16-06-2016</item>
+        <item>23-06-2016</item>
+        <item>30-06-2016</item>
+
+        <item>07-07-2016</item>
+        <item>15-07-2016</item>
+        <item>21-07-2016</item>
+        <item>28-07-2016</item>
+
+        <item>04-08-2016</item>
+        <item>11-08-2016</item>
+        <item>18-08-2016</item>
+        <item>25-08-2016</item>
+    </array>
+
+    <array name="frequence_notifications_fr">
+        <item>La veille du ramassage</item>
+        <item>Le jour du ramassage</item>
+    </array>
+
+    <array name="frequence_notifications">
+        <item>One day before</item>
+        <item>The day</item>
+    </array>
+</resources>

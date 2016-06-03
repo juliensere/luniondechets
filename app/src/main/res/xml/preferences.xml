@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <PreferenceCategory
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:title="Types de notifications souhaités">
+
+        <CheckBoxPreference
+            android:key="prefNotifciationsPurpleActive"
+            android:title="Ordures ménagères"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="prefNotifciationsBlueActive"
+            android:title="Collecte séléctive"
+            android:summaryOn="Vous recevrez une notification pour le ramassage du bac bleu"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="prefNotifciationsGreenActive"
+            android:title="Déchets verts"
+            android:defaultValue="true"/>
+
+        <CheckBoxPreference
+            android:key="prefNotifciationsYellowActive"
+            android:title="Encombrants"
+            android:summaryOn="Vous devez vous inscrire par téléphone"
+            android:summaryOff="Vous devez vous inscrire par téléphone"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Calendrier Dechets</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="activity_ville_selection_titre">Sélectionner votre ville</string>
+    <string name="activity_zone_selection_titre">Sélectionner votre zone</string>
+    <string name="title_activity_preferences">Paramètres</string>
+</resources>
